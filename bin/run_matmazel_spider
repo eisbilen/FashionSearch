@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd /Users/erdemisbilen/Angular/fashionWebScraping/fashionWebScraping
+echo MATMAZEL SPIDER START
+scrapy crawl -o rawdata_MATMAZEL.json -t jsonlines fashionMATMAZEL

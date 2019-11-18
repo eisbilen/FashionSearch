@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd /Users/erdemisbilen/Angular/fashionWebScraping/utilityScripts
+echo Utility Scripts Klasorune Giris Yapıldı
+python jsonPrep.py

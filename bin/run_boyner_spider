@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd /Users/erdemisbilen/Angular/fashionWebScraping/fashionWebScraping
+echo BOYNER SPIDER START
+scrapy crawl -o rawdata_BOYNER.json -t jsonlines fashionBOYNER

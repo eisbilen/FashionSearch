@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd /Users/erdemisbilen/Angular/fashionWebScraping/fashionWebScraping
+echo MORHIPO SPIDER START
+scrapy crawl -o rawdata_MORHIPO.json -t jsonlines fashionMORHIPO

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd /Users/erdemisbilen/Angular/fashionWebScraping/fashionWebScraping
+echo YARGICI SPIDER START
+scrapy crawl -o rawdata_YARGICI.json -t jsonlines fashionYARGICI
